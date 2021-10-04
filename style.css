@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+.form{
+width:50%;
+display: flex;
+flex-direction: column;
+box-shadow:2px 2px 5px 5px lightblue;
+justify-content: center;
+align-content: center;
+margin: auto;
+margin-top:100px;
+
+padding: 20px 10px 20px 10px ;
+height: 65vh;
+
+font-family: 'Times New Roman', Times, serif;
+font-weight: 300;
+}
+
+button{
+    width: 20%;
+    align-content: center;
+    margin-left:38%;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+button:hover{
+    background-color: lightcyan;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+#e-mail{
+    width: 75%;
+}
+#phoneNumber{
+    width: 50%;
+    overflow: hidden;
+}
+#first_name{
+    margin-right: 20px;
+}
+input{
+    padding: 10px;
+    border: none;
+    overflow: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+input:active{
+   border:2px solid grey;
+   border-radius: 5px 5px 5px 5px;
+
+}
+.InValid{
+    border-bottom: 2px solid red;
+    color:black;
+}
+
+.Valid{
+    border-bottom: 2px solid green;
+    color:black;
+}
+
+.label_message{
+    color:red;
+    font-size: small;
+}
+
+#btn{
+    margin-top: 20px;
+}

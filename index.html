@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Validation_1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Contact Form</h1>
+        <label for="name"> <b> Name</b></label>
+        <div class="name">
+            <input class="" id="first_name" type="text" placeholder="First Name" onfocus="validate_change()">
+            <label class="label_message" id="message_firstName"></label>
+            <input class="" id="last_name" type="text" placeholder="Last Name" onfocus="validate_change()">
+            <label class="label_message" id="message_Lastname"></label>
+        </div>
+        <!-- PhoneNumber -->
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input class="" id="phoneNumber" type="text" placeholder="Phone Number">
+        <label class="label_message" id="message_phone"></label>
+        <br>
+        <!-- e-mail -->
+        <label for="e-mail">E-mail id:</label>
+        <input id="e-mail" class="" type="text" placeholder="E-mail id">
+        <label class="label_message" id="message_email"></label>
+        <br>
+        <!-- Password -->
+        <label for="e-mail">Password:</label>
+        <input id="password" class="" type="password" placeholder="Password">
+        <label class="label_message" id="message_password"></label>
+
+        <br>
+        <label for="e-mail">Re-type Pasword:</label>
+        <input id="retype_password" class="" type="password" placeholder="Re-type Password">
+        <label class="label_message" id="message_retypepassword"></label>
+        <!-- button -->
+        <button id="btn" type="submit" onclick="validate()">Submit</button>
+    </div>
+    <script src="script.js"> </script>
+</body>
+
+</html>
